@@ -115,10 +115,6 @@ Once configured with your AI assistant:
 - **Platforms**: macOS, Linux, Windows
 - **Python**: 3.8, 3.9, 3.10, 3.11
 
-## License
-
-Apache-2.0
-
 ## Myblog
 
 [CloseX Blog](https://blog.closex.org)
