@@ -1,0 +1,41 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "universal-robot-mcp"
+version = "0.1.2"
+description = "MCP server for Universal Robots control"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "mcp>=1.13.1",
+    "urx>=0.11.0"
+]
+authors = [
+    { name = "roversx" }
+]
+license = { text = "Apache-2.0" }
+keywords = ["mcp", "model-context-protocol", "robot", "urx", "universal-robots"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+
+[project.scripts]
+universal-robot-mcp = "universal_robot_mcp.server:main"
+
+[project.entry-points."mcp.server"]
+universal-robot = "universal_robot_mcp.server:main"
+
+[tool.setuptools.packages.find]
+include = ["universal_robot_mcp*"]
