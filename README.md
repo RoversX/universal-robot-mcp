@@ -119,6 +119,6 @@ Once configured with your AI assistant:
 
 Apache-2.0
 
-## Contributing
+## Myblog
 
-Contributions welcome! See our [contributing guide](CONTRIBUTING.md) for details.
+[CloseX Blog](https://blog.closex.org)
