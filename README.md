@@ -25,7 +25,7 @@ pip install universal-robot-mcp
 
 ### Development Installation
 ```bash
-git clone <repository-url>
+git clone https://github.com/RoversX/universal-robot-mcp
 cd universal-robot-mcp
 pip install -e .
 ```
