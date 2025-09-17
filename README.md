@@ -119,8 +119,6 @@ Once configured with your AI assistant:
 
 GPL-3.0
 
-personal use only. for commercial use, contact contact@closex.org
-
 ## My blog
 
 [CloseX Blog](https://blog.closex.org)
